@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+
+}
+
+
+.container {
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: hsl(150, 100%, 66%);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.frase p {
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.elemento {
+   display: flex;
+   justify-content: center;
+    margin-top: 90px;
+}
+
+.quadrado {
+    display: flex;
+   justify-content: center;
+}
+
+.redondo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.imagem img{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 90px;
+    position: relative;
+    top:38px;
+}
+
